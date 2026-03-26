@@ -6,9 +6,9 @@ import difflib
 import shap
 import streamlit as st
 
-# Paths (Absolute for consistency)
-BASE_DIR = r"c:\Users\EDWARDM\Desktop\PLP2025\intern\saxiflex intern\capstone project\Performance_Predictor"
-DATA_PATH = os.path.join(os.path.dirname(BASE_DIR), "student-per.csv")
+# Paths (Relative for cross-platform deployment)
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+DATA_PATH = os.path.join(BASE_DIR, "student-per.csv")
 MODEL_PATH = os.path.join(BASE_DIR, "best_xgboost_model_v2.joblib")
 COLS_PATH = os.path.join(BASE_DIR, "feature_columns.joblib")
 STATS_PATH = os.path.join(BASE_DIR, "feature_stats.joblib")
