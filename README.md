@@ -2,6 +2,10 @@
 
 A professional-grade, AI-powered dashboard designed to identify students at risk of academic failure using advanced machine learning and explainable AI techniques.
 
+### 🌐 Live Prototype
+The application is deployed and can be accessed in real-time here:  
+**🚀 [performance-predictor-pro.streamlit.app](https://performance-predictor-pro.streamlit.app/)**
+
 ## 🚀 Project Overview
 The **Student Success Predictor** leverages an optimized XGBoost model to analyze demographic, social, and academic data. Its primary goal is to provide educators with a proactive tool for identifying students who may need additional support, moving from reactive grades to proactive intervention.
 
@@ -63,4 +67,4 @@ Future planned phases include:
 - **Phase 4**: Security (User Authentication & Role-Based Access Control).
 
 ---
-*Created as part of the PLP 2025 Capstone Project.*
+*Created as part of the FIP 2026 Capstone Project.*
